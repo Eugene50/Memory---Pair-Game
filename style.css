@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+
+#field {
+    float:left;
+    width: 200px;
+    height: 200px;
+/*  padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    margin: 0;
+    border: solid;
+    border-radius: 10%;
+}
