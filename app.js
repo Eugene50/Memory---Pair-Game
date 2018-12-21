@@ -19,9 +19,7 @@ window.onload = function () {
     });
     
     container.addEventListener('click', function (el) {
-        if(el.target.tagName = 'img'){
-            el.id  = 'close';
-        }
+        
     })
 }
 
