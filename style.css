@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.wrapper {
+#wrapper {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -35,4 +35,8 @@ img {
 }
 #banana {
     padding-top: 19px;
+}
+
+#close {
+    display: none;
 }
